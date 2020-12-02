@@ -15,6 +15,7 @@
 <ul class="devoured">
   {{#each burgers}}
     {{#if devoured}}
+      {{> burgers/burger-block devoured=true}}
     {{/if}}
   {{/each}}
 </ul>
