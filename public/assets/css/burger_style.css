@@ -6,10 +6,21 @@ h1 {
 }
 .toEat {
     float: left;
+    display: inline; 
+    width: 400px;
+    height: 500px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: burlywood;
 }
 
 .devoured {
-    float: right;
+    display: inline; 
+    width: 400px;
+    height: 500px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: burlywood;
 }
 
 li {
